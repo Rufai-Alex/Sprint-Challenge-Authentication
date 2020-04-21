@@ -49,8 +49,11 @@ Bcyrpt uses a hashing algorithm to compute a hash of the users password.It does 
 - [ ] What does bcrypt do to slow down attackers?
 
 Bcrypt slows down attackers by:
-1.Using salt - randomly generated 2. Using a cost parameter that species a number of rounds to be performed on the user's password and the salt 3. A user passwords
-This makes it difficult for hackers to hack because you need to hack all the 3 above to get the password.
+1.Using salt - randomly generated
+
+2. Using a cost parameter that species a number of rounds to be performed on the user's password and the salt
+3. A user passwords
+   This makes it difficult for hackers to hack because you need to hack all the 3 above to get the password.
 
 - [ ] What are the three parts of the JSON Web Token?
 
